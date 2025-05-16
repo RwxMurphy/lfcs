@@ -7,7 +7,7 @@ users to log in RDP(remote desktop protocol) is often used.
 Almost all linux system use Open SSH(secure shell) to login to remote systems.
 
 
-**How it works** The server has a SSH daemon running in the background listning 
+*How it works* The server has a SSH daemon running in the background listning 
 for connectons request. The local machine has a SSH client which is used to 
 send the connection request to the server.
 
