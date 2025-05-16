@@ -54,3 +54,8 @@ created the database will need to be manually created.
 ```bash
 $ sudo mandb
 ``` 
+
+## Tab completion
+When typing a command, file name, path etc the system can complete your entry 
+when you hit TAB once. Hitting TAB twice will give a list of suggestions 
+depending on the context.
