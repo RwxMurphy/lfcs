@@ -23,11 +23,10 @@ page-up and page-down keys. To exit press 'q'.
 $ man journalctl
 ```
 
-**Note** the man pages is devided into different sections, some commands can 
+**Note** the man pages are devided into different sections, some commands can 
 be found in multiple sections in most cases commands for administering the 
 system are found in section 1 and section 8. to show only these sections:
 
 ```bash
 $ man 1, 8 journalctl
-```
 ```
