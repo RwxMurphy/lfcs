@@ -24,13 +24,14 @@ directory you can use the following command:
 To change your current working directory use the cd command followed by the 
 path relative or absolute.
 
+*absolute path*
 	```bash
 	$ cd /home/aaron
 	```
-	*absolute path*
 
+*relative path*
 	```bash
 	$ cd Documents/Invoice.pdf
 	```
-	*relative path*
+
 
