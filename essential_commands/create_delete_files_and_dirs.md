@@ -15,23 +15,70 @@ Example:
 *Relative* paths are **relative** to your current directory. To see your current 
 directory you can use the following command:
 
-	```bash
-	$ pwd
-	```
-	pwd - print working directory 
+*pwd - print working directory*
+```
+$ pwd
+``` 
+
+
 
 ### Changing directories
 To change your current working directory use the cd command followed by the 
 path relative or absolute.
 
 *absolute path*
-	```bash
-	$ cd /home/aaron
-	```
+```
+$ cd /home/aaron
+```
+
 
 *relative path*
-	```bash
-	$ cd Documents/Invoice.pdf
-	```
+```
+$ cd Documents/Invoice.pdf
+```
 
 
+
+**Note** that two dots '..' can also be used to move between directories. '..'
+means move to the parent directory of the current directory. 
+	
+*Usage*
+```
+$ cd ../../
+```
+move two directories above your current directory.
+
+
+
+### Listing the contents of a directory
+To see what is inside your current directory use the 'ls' command. 'ls' 
+without any arguments will default to the current directory. You can also 
+provide the path to a directory outside the current directory using a relative
+path or a absolute path.
+
+*current directory*
+```
+$ ls
+```
+
+<br/>
+*List contents at absolute path*
+
+```
+$ ls \home\aaron\Documents\
+```
+
+<br/>
+*Common flags*
+
+-a list all files including hidden files
+-l list files in long format
+-h human readable statistics on files must be used with '-l' flag
+
+**Note** multiple flags can be combine 
+
+
+*Example*
+```
+$ ls -alh
+```
