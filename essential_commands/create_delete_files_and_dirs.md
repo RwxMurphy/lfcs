@@ -62,14 +62,14 @@ $ ls
 ```
 
 <br/>
-*List contents at absolute path*
+List contents at absolute path
 
 ```
 $ ls \home\aaron\Documents\
 ```
 
 <br/>
-*Common flags*
+Common flags
 
 -a list all files including hidden files
 -l list files in long format
