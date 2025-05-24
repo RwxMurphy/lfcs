@@ -12,8 +12,8 @@ Example:
 /home/aaron/Documents/Invoice.pdf
 
 
-*Relative* paths are **relative** to your current directory. To see your current 
-directory you can use the following command:
+*Relative* paths are **relative** to your current directory. To see your 
+current directory you can use the following command:
 
 *pwd - print working directory*
 ```
@@ -39,8 +39,8 @@ $ cd Documents/Invoice.pdf
 
 
 
-**Note** that two dots '..' can also be used to move between directories. '..'
-means move to the parent directory of the current directory. 
+**Note** that two dots '..' can also be used to move between directories. 
+'..' means move to the parent directory of the current directory. 
 	
 *Usage*
 ```
