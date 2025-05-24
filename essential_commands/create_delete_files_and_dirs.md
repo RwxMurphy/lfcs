@@ -71,8 +71,8 @@ $ ls \home\aaron\Documents\
 <br/>
 Common flags
 
--a list all files including hidden files
--l list files in long format
+-a list all files including hidden files <br/>
+-l list files in long format <br/>
 -h human readable statistics on files must be used with '-l' flag
 
 **Note** multiple flags can be combine 
